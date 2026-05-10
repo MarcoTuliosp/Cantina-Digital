@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://SEU-BACKEND.onrender.com/api/:path*"
+      "destination": "https://cantina-digital.onrender.com/api/:path*"
     }
   ]
 }
