@@ -1,0 +1,35 @@
+# ═══════════════════════════════════
+# Cantina Digital — .gitignore
+# ═══════════════════════════════════
+
+# ─── Java / Maven ───
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+
+# ─── Node / Frontend ───
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ─── IDE ───
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# ─── Sistema ───
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# ─── Ambiente ───
+.env
+*.env.local
